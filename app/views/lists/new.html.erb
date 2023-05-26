@@ -1,6 +1,6 @@
 <div class="cadre-form">
 <%= simple_form_for(@list) do |f| %>
-  <%= f.input :name, label: false, placeholder: "coucou" %>
-  <%= f.button :submit, label: "hello", class: "btn-grad-black" %>
+  <%= f.input :name, label: "Nom de la liste :" %>
+  <%= f.button :submit, value: "Créer ma liste", class: "btn-grad-black" %>
 <% end %>
 </div>
