@@ -21,3 +21,89 @@ body {
 .signature {
   text-align: center;
 }
+
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .cadre-corps {
+    padding: 150px;
+  }
+  .cadre-form {
+    padding: 100px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .btn-grad-black {
+    padding: 11px 15px;
+  }
+}
+
+@media(max-width: 490px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .cadre-corps {
+    padding: 100px;
+  }
+
+}
+
+@media(max-width: 425px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .cadre-corps {
+    padding: 100px;
+  }
+
+  .btn-nav-black {
+    margin: 0px;
+  }
+
+  .btn-nav {
+    margin: 0px;
+  }
+}
+
+@media(max-width: 380px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .cadre-corps {
+    padding: 100px;
+  }
+
+  .btn-nav-black {
+    margin: 0px;
+    padding: 15px 4px;
+  }
+
+  .btn-nav {
+    margin: 8px;
+    padding: 15px 4px;
+  }
+}
