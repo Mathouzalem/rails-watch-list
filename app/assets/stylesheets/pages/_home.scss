@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+body {
+  background-color: rgb(234, 234, 234);
+}
+
+.cadre-corps {
+  border-right: solid #000000;
+  border-left: solid #000000;
+  border-bottom: solid #000000;
+  background: linear-gradient(rgb(234, 234, 234), #ffa0ab);
+  padding: 200px;
+}
+
+.cadre-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid #000000;
+
+}
+
+.signature {
+  text-align: center;
+}

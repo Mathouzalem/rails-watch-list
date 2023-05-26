@@ -1,0 +1,14 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardo {
+  border: solid black;
+  padding: 30px;
+  margin: 60px;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}

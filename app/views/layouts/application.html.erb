@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsWatchList</title>
+    <title>MathildeWatchList</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+</style>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
   <body>
-    <%= yield %>
-  </body>
+      <div class="container">
+        <div class="navbar">
+          <i class="fa-regular fa-heart logo"></i>
+          <p><%= link_to "Créer une liste", new_list_path, class: "btn-nav-black"  %></p>
+          <p><%=link_to "Retour aux listes", lists_path, class: "btn-nav" %></p>
+        </div>
+
+
+        <%= yield %>
+        <div class="signature">
+        <p>Design by Mathouzalem</p>
+        </div>
+      </div>
+
+    </body>
 </html>

@@ -1,0 +1,22 @@
+  <div class="cadre-corps">
+    <div class="button-categ-align">
+      <h1 class="title-categ" ><%=@list.name%></h1>
+          <%=link_to "Ajouter un film", new_list_bookmark_path(@list), class: "btn-grad-pink"%>
+          <%= link_to "Supprimer la liste", list_path(@list), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class: "btn-grad-black"%>
+    </div>
+  </div>
+
+  <div class="cadre-card">
+    <div class="cards">
+      <% @list.bookmarks.each do |bookmark| %>
+        <div class="cardo">
+          <h2><%=bookmark.movie.title%>
+          </h2>
+          <p><%=bookmark.movie.overview%>
+          </p>
+          <p><%=bookmark.movie.rating%>
+          </p>
+        </div>
+      <% end %>
+    </div>
+  </div>

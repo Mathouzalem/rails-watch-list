@@ -1,12 +1,59 @@
-.navbar-lewagon {
+.logo{
+  font-size: 40px;
+  flex-grow: 1;
+  margin-left: 20px;
+  color: #ff6e7f;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  background: rgb(234, 234, 234);
+  border: solid #000000;
+  margin-top: 10px;
+  display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
+  height: 80px;
+    p{
+      margin: 0;
+    }
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.btn-nav {
+  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+  margin: 10px;
+  padding: 14px 12px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 40px;
+  border: solid #000000;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.btn-nav-black {
+  background-color: black;
+  margin: 10px;
+  padding: 14px 12px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 40px;
+  border: solid #000000;
+}
+
+.btn-nav:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-nav-black:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }

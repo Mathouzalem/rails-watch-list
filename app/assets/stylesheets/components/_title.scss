@@ -1,0 +1,43 @@
+.title {
+  text-align: center;
+  font-size: 80px;
+  margin: 0px;
+  font-family: 'Playfair Display', bold;
+}
+
+.title-h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', bold;
+  font-size: 50px;
+}
+
+.ban-noire {
+  background: black;
+  height: 50px;
+}
+
+.title-card {
+  font-family: 'Playfair Display', bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.title-card:hover {
+  color:#bfe9ff;
+  text-decoration:none;
+  }
+
+.title-categ {
+  text-align: center;
+  font-size: 80px;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', bold;
+}
+
+.button-categ-align {
+  display: flex;
+  flex-direction: column;
+}

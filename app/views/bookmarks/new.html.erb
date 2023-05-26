@@ -1,0 +1,8 @@
+<div class="cadre-form">
+  <h1>Choisir et ajouter un film</h1>
+  <%= simple_form_for [@list, @bookmark] do |f| %>
+    <%= f.association :movie %>
+    <%= f.input :comment %>
+    <%= f.submit class:"btn-grad-black" %>
+  <% end %>
+</div>
