@@ -24,7 +24,7 @@ class ListsController < ApplicationController
     @list = List.find(params[:id])
     @list.destroy
     # No need for app/views/restaurants/destroy.html.erb
-    redirect_to lists_path
+    redirect_to root_path
   end
 
   private
